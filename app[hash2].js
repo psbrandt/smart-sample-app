@@ -202,7 +202,7 @@ var App = (function() {
       if (this.query.start) {
         FHIR.oauth2.authorize({
           client: {
-            client_id: "my_web_app",
+            client_id: "smart-sample-app",
             scope: scope
           },
           server: fhirServer
